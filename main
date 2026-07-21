@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a,b,total;
+    printf("enter A value :");
+     scanf("%d",&a);
+    printf("enter B value :");
+    scanf("%d",&b);
+    total= a+b;
+    printf("total = %d",total);
+    return 0;
+}
