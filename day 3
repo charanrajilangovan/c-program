@@ -1,0 +1,112 @@
+percentage
+
+
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e;
+    float total;
+    printf("enter 5 sub marks");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    total = (a+b+c+d+e)/5.0;
+    
+    printf("total = %0.2f",total);
+    return 0;
+}
+
+_____________________________________________________________________________________________________
+calculator
+
+
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf("enter 2 numbers : ");
+    scanf("%d%d",&a,&b);
+    printf("addition = %d\n",a+b);
+    printf("subraction = %d\n",a-b);
+    printf("division = %d\n",a/b);
+    printf("multiplication = %d\n",a*b);
+    return 0;
+}
+
+
+____________________________________________________________________________________________________
+
+simple interest
+
+
+#include <stdio.h>
+
+int main() {
+    float p,r,t,SI;
+    printf("enter principle :");
+    scanf("%f",&p);
+     printf("enter rate :");
+    scanf("%f",&r);
+     printf("enter time :");
+    scanf("%f",&t);
+    SI = ((p*r*t)/100.0);
+    printf("SIMPLE INTEREST = %0.3f",SI);
+    return 0;
+}
+
+
+
+_________________________________________________________________________________________
+
+
+profit and loss
+
+
+#include <stdio.h>
+
+int main() {
+    float cp,sp;
+    printf("enter the cp :");
+    scanf("%f",&cp);
+    printf("enter the sp :");
+    scanf("%f",&sp);
+    if(sp>cp){
+        printf("profit = %0.3f ",sp-cp);
+    }
+    else if(cp>sp){
+        printf("loss = %0.3f",cp-sp);
+    }
+    else{
+        printf("invested amount is taken = %0.3f",cp);
+    }
+    return 0;
+}
+
+
+
+_____________________________________________________________________________________
+
+
+largest of two numbers
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    float A,B;
+    printf("enter the 1st number : ");
+    scanf("%f",&A);
+    printf("enter the 2nd number : ");
+    scanf("%f",&B);
+    if(A>B){
+        printf(" A is greter because it is %f which is %.2f more greater then B ",A,A-B);
+    }
+    else{
+        printf(" B is greater because it is %f which is %.2f more greater then A ",B,B-A);
+    }
+    return 0;
+}
+
+
+
+_______________________________________________________________________________________
