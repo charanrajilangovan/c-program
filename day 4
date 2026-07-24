@@ -1,0 +1,82 @@
+odd or even 
+
+
+#include <stdio.h>
+
+int main() {
+    int i;
+    printf("enter i value : ");
+    scanf("%d",&i);
+    if(i/2==0){
+        printf("even");
+    }
+    else{
+        printf("odd");
+    }
+
+    return 0;
+}
+
+
+_________________________________________________________________________________________
+positive,negative 
+
+#include <stdio.h>
+
+int main() {
+    int i;
+    printf("enter i value : ");
+    scanf("%d",&i);
+    if(i>0){
+        printf("positive");
+    }
+    else if(i==0){
+        printf("zero");
+    }
+    else{
+        printf("negative");
+    }
+
+    return 0;
+}
+
+
+______________________________________________________________________________________
+
+
+#include <stdio.h>
+
+int main() {
+    int i;
+    printf("enter i value : ");
+    scanf("%d",&i);
+    if(i>=18){
+        printf("eligible to vote");
+    }
+    
+    else{
+        printf("not eligible");
+    }
+
+    return 0;
+}
+
+_______________________________________________________________________________________
+
+
+
+#include <stdio.h>
+
+int main() {
+char c;
+printf("enter a letter  :");
+scanf("%c",&c);
+if(c ==  'a' || c ==  'e' || c ==  'i' || c ==  'o' || c ==  'u' || 
+c ==  'A' || c ==  'E' || c ==  'I' || c ==  'O' || c ==  'U' ){
+    printf("vowel");
+}
+else{
+    printf("not a vowel");
+}
+    return 0;
+}
